@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Pseudoclass selector!</title>
+    
+    <style>
+        
+ header li{
+
+list-style:none;
+}
+a { text-decoration: none;
+border:0.5px solid gray;
+margin-bottom:1px;
+display:block;
+text-align:center;
+color:black;
+width:250px;
+background-color:green;
+
+} 
+ 
+a:link { color: maroon; 
+
+}
+ a:visited { color: gray;
+
+ } 
+
+a:focus { color: maroon; background-color: #ffd9d9;
+
+ } 
+
+a:hover { color: maroon; background-color: #ffd9d9; 
+
+}
+
+ a:active { color: red; background-color: #ffd9d9; 
+
+}
+ 
+ 
+    
+header li:nth-child(3){
+font-size:25px;
+font-family: courier;
+opacity:300;
+
+}
+  section div:nth-child(odd){
+background-color:gray;
+display:block;
+
+}
+section div:nth-child(4):hover{
+background-color:green;
+cursor:pointer;
+display:block;
+
+}
+h1{
+font-family: courier;
+color:indigo;
+text-align:center;
+opacity:300;
+}
+
+div{
+text-color:whight;
+}
+#container{
+
+color:blue;
+font-size:20px;
+border:1px;
+display:block;
+}
+
+h,p{
+text-align="center"
+}
+
+</style>
+ 
+    </head>
+    
+    <body bgcolor="pink">
+        <h1 class="highlight">
+            Pseudoclass selectors
+        </h1>
+        <header>
+            <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Contact</a></li>
+           <li><a href="https://www.google.com"> Facebook page</li>
+              
+         </ul>
+        </header>
+            
+          <section id="container"  >
+              <div align="center" ><img width="30" height="30" src="/storage/emulated/0/Pictures/Eraser/1590472873685.png">div1</div>
+              <div>div2</div>
+              <div>div3</div>
+              <div>div4</div>
+              <div>div5</div>
+              <div>div6</div>
+              <div>div7</div>
+              <div>div8</div>
+              <div>div9</div>
+              <div>div10</div>
+              <div>div11</div>
+            </section>
+         
+       <img width="200" src="/storage/emulated/0/Pictures/Eraser/1591757151916.png">
+    </body>
+</html>
